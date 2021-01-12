@@ -31,10 +31,7 @@ class _MyApp extends State<MyApp> {
             Padding(
               child: IconButton(
                 icon: Icon(Icons.exit_to_app),
-                onPressed: () {
-                  debugPrint("ccc");
-                  exit(0);
-                },
+                onPressed: () => exit(0)
               ),
               padding: EdgeInsets.only(right: 10),
             )
